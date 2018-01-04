@@ -1,0 +1,41 @@
+{
+   "name" : "xor",
+   "cases" : [
+      {
+         "inputs" : {
+            "Y" : 0,
+            "X" : 0
+         },
+         "outputs" : {
+            "o" : 0
+         }
+      },
+      {
+         "inputs" : {
+            "Y" : 1,
+            "X" : 0
+         },
+         "outputs" : {
+            "o" : 1
+         }
+      },
+      {
+         "inputs" : {
+            "X" : 1,
+            "Y" : 0
+         },
+         "outputs" : {
+            "o" : 1
+         }
+      },
+      {
+         "outputs" : {
+            "o" : 0
+         },
+         "inputs" : {
+            "Y" : 1,
+            "X" : 1
+         }
+      }
+   ]
+}
